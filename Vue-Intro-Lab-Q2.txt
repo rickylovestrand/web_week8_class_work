@@ -7,4 +7,5 @@ is dynamically created and it is acceptable for it not to exist for some reason.
 
 But as it pertains to me, it's probably indicative of the fact that I'm still working on the app, 
 or I've made a mistake and forgetten to add that property to the vue data. Adding the property should
-fix the error. 
+fix the error. Or removing the reference to it in the html would also get rid of the error. Or it could
+also be a typo. Fixing it and making sure the names are the same would also fix it. 
