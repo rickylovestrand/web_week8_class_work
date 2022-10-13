@@ -1,0 +1,10 @@
+2. Property was accessed during render but was not defined on instance. 
+
+This message appears when there is html that uses this syntax: {{ someProperty }} to display vue data
+but that property isn't defined anywhere in the vue code. It's safe to ignore it if the application is still 
+being built but I wouldn't expect the error to show up on a completed app unless maybe somehow the property 
+is dynamically created and it is acceptable for it not to exist for some reason. 
+
+But as it pertains to me, it's probably indicative of the fact that I'm still working on the app, 
+or I've made a mistake and forgetten to add that property to the vue data. Adding the property should
+fix the error. 
